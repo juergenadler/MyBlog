@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Approach with caution: Blogging Area</title>
+
+    <link rel="stylesheet" href="./css/fp.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="brand">
+          My Javascript Blog:
+          <span>A place to get lost in information about JavaScript </span>
+        </div>
+      </header>
+      <main>
+        <div id="BlogContent">
+          <section id="img_motivating"></section>
+          <section id="posts">
+            <article>
+              <include src="articles/article_1.html"></include>
+            </article>
+            <article>
+              <include src="articles/article_2.html"></include>
+            </article>
+            <article>
+              <include src="articles/article_3.html"></include>
+            </article>
+            <article>
+              <include src="articles/article_4.html"></include>
+            </article>
+          </section>
+        </div>
+        <aside>
+          <h3>Useful JavaScript links...</h3>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank"
+                >https://www.w3schools.com/ (W3Schools)</a
+              >
+            </li>
+            <li>
+              <a href="https://dmitripavlutin.com/" target="_blank"
+                >https://dmitripavlutin.com/ (Dmitri Pavlutin)</a
+              >
+            </li>
+            <li>
+              <a href="https://gomakethings.com/" target="_blank"
+                >https://gomakethings.com/ (Chris Fernandi)</a
+              >
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank"
+                >https://www.freecodecamp.org (FreeCodeCamp)</a
+              >
+            </li>
+          </ul>
+        </aside>
+      </main>
+      <footer>&copy; 2024 Jürgen Adler</footer>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

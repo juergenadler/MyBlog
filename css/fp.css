@@ -1,0 +1,143 @@
+* {
+    /* Placeholder so far */
+}
+
+:root {
+    /* In HTML, :root represents the <html> element and is identical to the selector html, except that its specificity is higher.*/
+
+    /* Global settings */
+    * {
+        /* font-size: 18pt;    */
+    }
+}
+
+#img_motivating {
+    min-height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+
+    background: url("../img/img_motivating.avif") center no-repeat;
+}
+
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+
+header .brand {
+    color: #666;
+    font-family: "Pacifico", "Georgia";
+    font-size: 1.7em;
+    padding: 1em;
+}
+
+header .brand span {
+    color: #666;
+    font-family: "Open Sans", "Sans-serif";
+    font-size: 0.7em;
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    clear: both;
+}
+
+main {
+    overflow: hidden;
+    display: flex;
+    padding: 1.5em;
+}
+
+#BlogContent {
+    width: 70%;
+}
+
+body {
+    background-color: #e4e6f8;
+    font-size: 120%;
+
+    /* Referring to the Google stuff, as in https://fonts.google.com/selection?query=open+sa */
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.wrapper {
+    background-color: #fff; 
+    max-width: 1024px;
+    margin: 0 auto;
+    border-radius: 20px;
+    /* Review: How to test? TODO: Check if this has not been dropped by now.
+    // Very likely according to Stackoverflow etc.  */
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20 px;
+}
+
+
+a {
+    color: #333;
+}
+
+
+/* aside */
+
+aside {
+    background-color: whitesmoke; 
+    padding: 5px;  
+}
+
+aside h3 {
+    background-color: #a895eb; 
+    color: #fff;
+    padding: 1.1em;
+    margin-top: 0;
+}
+
+aside ul {
+    display: float;
+    background-color: whitesmoke;
+    margin: 0;
+    list-style: none;
+}
+
+aside a {
+    display: flex;
+}
+
+
+a:hover {
+    color: violet;
+    transition: 0.3s;
+}
+
+
+/* article */
+
+article {     
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+article h2 {
+    margin-bottom: 0;
+    font-size: 1.7em;
+    color: #333;
+    padding: 0;
+}
+
+article p {    
+    margin-top: 0.8em;
+    color: #333;
+    padding: 0;
+}
