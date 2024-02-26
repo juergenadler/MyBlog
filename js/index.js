@@ -1,6 +1,6 @@
 function addHTML() {
    /*Iterate all DOM*/
-   let el = document.getElementsByTagName("div"); // We allow this attribute only in div tags
+   let el = document.getElementsByTagName("div"); // We allow this attribute only in div tags for now
    for (let i = 0; i < el.length; i++) {
       let domEl = el[i];
 
@@ -20,7 +20,7 @@ function addHTML() {
 
                /* Remove the attribute and invoke the function again*/
                domEl.removeAttribute("include-html");
-               addHTML();
+               addHTML(); // Review
             }
          }
          xmlHttp.open("GET", fileName, true);

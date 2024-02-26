@@ -136,18 +136,16 @@ article {
     margin-top: 1em;
     border-color: black;
     border: 2px solid;
-    padding: 2px;
+    padding: 2pt;
 }
 
 article h2 {
     margin-bottom: 0;
     font-size: 1.7em;
-    color: #333;
-    padding: 0;
+    color: #333; 
 }
 
 article p {    
     margin-top: 0.8em;
     color: #333;
-    padding: 0;
 }
