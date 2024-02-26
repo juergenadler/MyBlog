@@ -57,7 +57,7 @@ main {
 }
 
 #BlogContent {
-    width: 70%;
+    width: 65%;
 }
 
 body {
@@ -78,7 +78,7 @@ body {
     margin: 0 auto;
     border-radius: 20px;
     /* Review: How to test? TODO: Check if this has not been dropped by now.
-    // Very likely according to Stackoverflow etc.  */
+    /* Very likely according to Stackoverflow etc.  */
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20 px;
@@ -94,7 +94,8 @@ a {
 
 aside {
     background-color: whitesmoke; 
-    padding: 5px;  
+    padding: 0px;  
+    padding-left: 1pt;
 }
 
 aside h3 {
@@ -108,11 +109,17 @@ aside ul {
     display: float;
     background-color: whitesmoke;
     margin: 0;
+    padding-left: 0;
     list-style: none;
+}
+
+aside ul li  {
+  font-size: 8pt;
 }
 
 aside a {
     display: flex;
+    font-size: 12pt;
 }
 
 
@@ -127,6 +134,9 @@ a:hover {
 article {     
     margin-bottom: 1em;
     margin-top: 1em;
+    border-color: black;
+    border: 2px solid;
+    padding: 2px;
 }
 
 article h2 {
